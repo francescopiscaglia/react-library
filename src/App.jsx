@@ -11,10 +11,10 @@ function App() {
   return (
     <>
 
-      <BrowserRouter>
+      <BrowserRouter> {/* Put everything inside this component */}
 
-        <Routes>
-          <Route path='/' element={<HomePage />}></Route>
+        <Routes> {/* Put all the routes inside this component */}
+          <Route path='/' element={<HomePage />}></Route> {/* This is the home page route */}
           <Route path='/books' element={<BooksPage />}></Route>
           <Route path='/about' element={<AboutPage />}></Route>
           <Route path='/contacts' element={<ContactsPage />}></Route>

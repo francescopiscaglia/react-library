@@ -24,3 +24,11 @@ header {
         }
     }
 }
+
+main {
+    margin: 1rem 0;
+
+    h1 {
+        margin-bottom: 1rem;
+    }
+}

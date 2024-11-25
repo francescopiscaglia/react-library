@@ -1,12 +1,13 @@
 import { Outlet } from "react-router-dom";
 import MainMenu from "../components/MainMenu";
+import reactLogo from "../assets/react.svg"
 
 export default function DefaultLayout() {
     return (
         <>
             <header>
                 <div className="logo">
-                    LOGO
+                    <img src={reactLogo} alt="" />
                 </div>
 
                 <MainMenu />

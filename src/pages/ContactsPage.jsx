@@ -1,3 +1,5 @@
+import MainMenu from "../components/MainMenu";
+
 export default function ContactsPase() {
     return (
         <>
@@ -5,13 +7,8 @@ export default function ContactsPase() {
                 <div className="logo">
                     LOGO
                 </div>
-                <nav>
-                    <a href="/">Home</a>
-                    <a href="/about">About</a>
-                    <a href="/contacts">Contacts</a>
-                    <a href="/books">Books</a>
 
-                </nav>
+                <MainMenu />
             </header>
 
             <main>

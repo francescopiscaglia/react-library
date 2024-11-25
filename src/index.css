@@ -21,7 +21,12 @@ header {
             color: white;
             text-decoration: none;
             margin-left: 1rem;
+
+            &.active {
+                color: violet;
+            }
         }
+
     }
 }
 
